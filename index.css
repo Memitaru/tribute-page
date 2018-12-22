@@ -80,11 +80,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 h1 {
     font-size: 4rem;
-    margin-top: 20px;
     font-family: 'Bowlby One', cursive;
     color: lightgray;
 }
@@ -101,4 +101,18 @@ header p {
     border: 2px solid black;
     border-radius: 5px;
     margin: 0 auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#img-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#image {
+    width: 80%;
+    border: 5px solid black;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 3px;
 }
