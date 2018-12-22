@@ -110,6 +110,22 @@ section {
     padding-top: 10px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25px;
+    width: 60%;
+    font-size: 1.6rem;
+    padding-top: 10px;
+    margin-bottom: -10px;
+}
+
 .side-img {
     width: 30%;
     border: 2px solid black;
