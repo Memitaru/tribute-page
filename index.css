@@ -105,16 +105,16 @@ footer {
     padding-bottom: 5px;
 }
 
-article {
+section {
     width: 60%;
     padding-top: 10px;
 }
 
-.test-image {
+.side-img {
     width: 30%;
-    height: 200px;
-    border: 1px solid blue;
+    border: 2px solid black;
     margin: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 .content-container {
@@ -131,12 +131,14 @@ article {
     border-radius: 5px;
     margin: 0 auto;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-bottom: 20px;
 }
 
 #img-div {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 #image {
@@ -145,4 +147,10 @@ article {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     border-radius: 3px;
     margin: 2rem;
+    max-width: 800px;
+}
+
+#img-caption {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
 }
