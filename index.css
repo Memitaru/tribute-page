@@ -70,11 +70,11 @@ p {
 }
 
 body {
-    background-color: lightgray;
+    background-color: lightslategray;
 }
 
 header {
-    background-color: #9C3A31;
+    background-color: #2B2B2B;
     height: 150px;
     width: 100%;
     display: flex;
@@ -86,11 +86,13 @@ h1 {
     font-size: 4rem;
     margin-top: 20px;
     font-family: 'Bowlby One', cursive;
+    color: lightgray;
 }
 
 header p {
     font-size: 3rem;
     font-family: 'Thasadith', sans-serif;
+    color: lightgray;
 }
 
 #main {
