@@ -95,6 +95,35 @@ header p {
     color: lightgray;
 }
 
+footer {
+    background-color: #2B2B2B;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+
+article {
+    width: 60%;
+    padding-top: 10px;
+}
+
+.test-image {
+    width: 30%;
+    height: 200px;
+    border: 1px solid blue;
+    margin: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1500px;
+}
+
 #main {
     background-color: white;
     max-width: 800px;
