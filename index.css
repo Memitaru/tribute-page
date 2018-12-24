@@ -154,7 +154,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 1300px;
+    height: 1400px;
     max-width: 800px;
 }
 
@@ -198,6 +198,12 @@ nav ul {
     padding-bottom: 10px;
 }
 
+@media (max-width: 700px) {
+    .content-container {
+        height: 1600px;
+    }
+}
+
 @media (max-width: 500px){
     nav ul {
         width: 80%;
@@ -228,39 +234,5 @@ nav ul {
         margin-left: 10%;
         margin-right: 10%;
     }
-
-    /* #tribute-info {
-        width: 80%;
-        order: 1;
-    }
-
-    #picone {
-        order: 2;
-    }
-
-    #characteristics {
-        order: 3;
-    }
-
-    #pictwo {
-        order: 4;
-    }
-
-    #facts {
-        order: 5;
-    }
-
-    #picthree {
-        order: 6;
-    }
-
-    #links {
-        order: 7;
-    }
-
-    #picfour {
-        order: 8;
-    } */
-
 
 }
