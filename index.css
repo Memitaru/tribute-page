@@ -196,3 +196,61 @@ nav ul {
     font-size: 1.2rem;
     padding-bottom: 10px;
 }
+
+/* @media (max-width: 500px){
+    nav ul {
+        width: 80%;
+    }
+
+    section {
+        width: 80%;
+    }
+
+    .content-container {
+        flex-wrap: no-wrap;
+        height: initial;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .side-img {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #tribute-info {
+        width: 80%;
+        order: 1;
+    }
+
+    #picone {
+        order: 2;
+    }
+
+    #characteristics {
+        order: 3;
+    }
+
+    #pictwo {
+        order: 4;
+    }
+
+    #facts {
+        order: 5;
+    }
+
+    #picthree {
+        order: 6;
+    }
+
+    #links {
+        order: 7;
+    }
+
+    #picfour {
+        order: 8;
+    }
+
+
+} */
