@@ -1,6 +1,6 @@
-#tribute-page
+# tribute-page
 
-[Live Version](https://memitaru.github.io/tribute-page/)
+[Preview Here](https://memitaru.github.io/tribute-page/)
 
 Tribute page for the Responsive Web Design section of [freecodecamp](https://www.freecodecamp.org/).
 
