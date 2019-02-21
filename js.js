@@ -1,0 +1,1 @@
+TweenMax.from(".test", 3, {opacity: 0});
